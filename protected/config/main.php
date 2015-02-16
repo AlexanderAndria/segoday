@@ -50,6 +50,9 @@ return array(
             'class' => 'bootstrap.components.TbApi',   
         ),
 
+		'mparser' => array(
+				'class' => 'application.extensions.parser.MParser',
+		),
 		// uncomment the following to enable URLs in path-format
 
 		'urlManager'=>array(
